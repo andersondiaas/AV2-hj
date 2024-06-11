@@ -1,0 +1,23 @@
+input[type=number],input[type=text] {
+  border: 2px solid black;
+  height: 16pt;
+  border-radius: 16px;
+  padding-left: 8px;
+  padding-right: 8px;
+  width: 24pt;
+}
+
+input[type=text] {
+  width: 144pt;
+}
+
+label, body {
+  font-family: sans-serif;
+  font-size: 14pt;
+  color: black;
+  font-weight: bold;
+}
+
+input[disabled] {
+  background-color: lightgray;
+}
